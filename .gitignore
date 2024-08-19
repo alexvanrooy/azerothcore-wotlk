@@ -92,3 +92,6 @@ local.properties
 #  !modules/yourmodule
 #
 # ==================
+
+# All Races All Characters Module
+!modules/mod-arac
