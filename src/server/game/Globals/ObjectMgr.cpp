@@ -8162,6 +8162,7 @@ void ObjectMgr::LoadReservedPlayerNamesDBC()
     LOG_INFO("server.loading", " ");
 }
 
+// ALEX WUZ HERE
 bool ObjectMgr::IsReservedName(std::string_view name) const
 {
     // pussywizard
@@ -8265,6 +8266,7 @@ void ObjectMgr::LoadProfanityNamesFromDBC()
     LOG_INFO("server.loading", " ");
 }
 
+// ALEX WUZ HERE
 bool ObjectMgr::IsProfanityName(std::string_view name) const
 {
     // pussywizard
@@ -8279,6 +8281,10 @@ bool ObjectMgr::IsProfanityName(std::string_view name) const
 
     return _profanityNamesStore.find(wstr) != _profanityNamesStore.end();
 }
+// bool ObjectMgr::IsProfanityName(std::string_view name) const
+// {
+//     return false;
+// }
 
 void ObjectMgr::AddProfanityPlayerName(std::string const& name)
 {
