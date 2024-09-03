@@ -1017,6 +1017,11 @@ void GameObject::GetFishLoot(Loot* fishloot, Player* loot_owner)
         if (fishloot->empty())
             fishloot->FillLoot(defaultzone, LootTemplates_Fishing, loot_owner, true, true);
     }
+
+    // add a WoF handler that will take the fishloot object and add an item to the 
+    //add the WorldOfFishing Loot
+    
+
 }
 
 void GameObject::GetFishLootJunk(Loot* fishloot, Player* loot_owner)
